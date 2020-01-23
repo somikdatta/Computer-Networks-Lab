@@ -30,7 +30,7 @@ int main(){
   printf("Sum recieved from server: %d\n",res[5]);
   printf("Sorted array:\n");
   for(int i=0;i<5;i++){
-    printf("%d\n", buffer[i]);
+    printf("%d\n", res[i]);
   }
   return 0;
 }
