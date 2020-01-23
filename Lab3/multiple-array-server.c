@@ -58,7 +58,7 @@ int main(){
   send(newSocket2,&buffer2,sizeof(buffer2),0);
   return 0;
 }
-void* inline bubblesort(int arr[]){
+void inline bubblesort(int arr[]){
   for(int i=0;i<5;i++){
     for(int j=0;j<5-i-1;j++){
       int temp=arr[j];
@@ -66,5 +66,4 @@ void* inline bubblesort(int arr[]){
       arr[j+1]=temp;
     }
   }
-  return arr;
 }
